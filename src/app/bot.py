@@ -5,6 +5,6 @@ Description: bot.py contains the driver code for an Instagram bot
 '''
 
 # Libraries
-from selenium import webdriver
+from instabot import bot
 
-class InstaBot
+# Import methods and variables from other files
