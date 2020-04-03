@@ -1,7 +1,7 @@
 '''
 Author(s): Adam Forestier
 Last Updated: April 3, 2020
-Description: helpers.py contains the functions to assist driver code
+Description: base.py contains the functions to assist driver code
 '''
 
 # Libraries
@@ -31,16 +31,6 @@ def generate_caption():
 def generate_hashtags():
     '''
     TODO: I will create hashtags using functions in the generators file
-    '''
-
-def date_photo():
-    '''
-    TODO: I will grab the date from the picture metadata nd include it in the post if desired by subsciber
-    '''
-
-def geotag_photo():
-    '''
-    TODO: I will grab the geotag from a photo and include it in the caption or hashtag
     '''
 
 def upload_photo(photo, caption, hashtags):

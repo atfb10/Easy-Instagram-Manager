@@ -1,7 +1,7 @@
 '''
 Author(s): Adam Forestier
 Last Updated: April 2, 2020
-Description: helpers.py contains the functions to assist driver code
+Description: generators.py contains the functions to handle random number generation
 '''
 
 # Libraries
