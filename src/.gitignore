@@ -1,3 +1,4 @@
 config
+photos/*
 PII.py
 __pycache__
