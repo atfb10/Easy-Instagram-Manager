@@ -8,7 +8,7 @@ Description: bot.py contains the driver code for an Instagram bot
 from instabot import bot
 
 # Import methods and variables from other files
-from PII import(
+from helpers.PII import(
     username,
     password
 )
