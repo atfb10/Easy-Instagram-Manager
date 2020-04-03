@@ -8,9 +8,6 @@ This project automates managing an Instagram page
 
 ### How to Run Locally
 * Install Python3. Add to path if in Windows
-* Install virtualenv - pip install virtualenv
-* Create virtualenv - virtualenv -p python venv
-* Start virtual env - cd venv - source Scripts/activate
-* Install project requirements - virtualenv -p python env
-* Create PII.py file. Create and assign variables imported from bot.py
+* Install project requirements pip install -r requirements.txt
+* Create PII.py file in same file as bot.py. Create and assign variables imported from bot.py
 * Update variables to suit your needs
