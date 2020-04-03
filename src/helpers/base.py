@@ -25,7 +25,12 @@ def sign_in():
 
 def generate_caption():
     '''
-    TODO: 
+    TODO: I will create captions using functions in the generators file
+    '''
+
+def generate_hashtags()
+    '''
+    TODO: I will create hashtags using functions in the generators file
     '''
 
 def upload_photo(photo):
