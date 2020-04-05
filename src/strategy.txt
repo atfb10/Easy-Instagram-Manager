@@ -1,0 +1,9 @@
+Add Hashtags after you write the caption preceded by “. . . . .” (one dot per line) so that they get truncated.
+    - Makes post seem less spammy
+    - Increases likeability of post 
+    - Another option is to add the hashtags as first comment following post 
+
+Research shows NINE, is the optimum number of hashtags per post
+    - 8 to 11 will be our range random number generation range; with a 50%% probability of generating 9
+
+Don't use the most popular hashtags, better optimize to specific audiences
