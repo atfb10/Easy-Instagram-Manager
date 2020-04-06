@@ -8,7 +8,7 @@ Description: base.py contains the functions to assist driver code
 from instabot import Bot
 
 # Import project functions and models
-from helpers.PII import (
+from variables.PII import (
     username,
     password
 )
