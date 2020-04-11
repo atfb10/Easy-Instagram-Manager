@@ -12,7 +12,6 @@ parentdir = os.path.dirname(currentdir)
 sys.path.insert(0,parentdir)
 
 # Libraries
-from random import randint
 
 # Import personal libraries and variables
 from photos import select_photo
