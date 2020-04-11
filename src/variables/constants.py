@@ -9,6 +9,7 @@ CLIMB = 'climb'
 MTN = 'mountains'
 SKI = 'ski'
 HIKE = 'hike'
+NATIONAL_PARK = 'np'
 CAMP = 'camp'
 SPORT = 'sportclimbing'
 TRAD = 'tradclimbing'
@@ -60,13 +61,22 @@ base_hiking_hashtags = [
     'walking'
 ]
 
-camping_hashtags = [
+base_camping_hashtags = [
     'camping',
     'camp',
     'tent',
     'campground',
     'nightunderthestars',
     'campinglife'
+]
+
+base_national_park_hashtags =[
+    'nationalparks',
+    'nationalpark',
+    'unitedstates',
+    'america',
+    'nps',
+    'findyourpark'
 ]
 
 spec_trad_climbing_hashtags = [
