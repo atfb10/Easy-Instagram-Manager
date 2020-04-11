@@ -33,7 +33,7 @@ def generate_hashtags():
     TODO: I will create hashtags using functions in the generators file
     '''
 
-def upload_photo(photo, caption, hashtags):
+def post_photo(photo, caption, hashtags):
     '''
     arguments: photo file, string of comments, list of hashtags
     returns: nothing

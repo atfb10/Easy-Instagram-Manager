@@ -6,7 +6,7 @@ Description: bot.py contains the driver code for an Instagram bot
 
 # Import methods and variables from other files
 from helpers.base import (
-    upload_photo
+    post_photo
 )
 test_photo = 'D:/coding/Python/projects/insta-manager/src/photos/CirqueOfTowers_Mountain.JPG'
 
@@ -33,5 +33,5 @@ test_hashtags = [
     'wilderness'
 ]
 
-upload_photo(test_photo, test_caption, test_hashtags)
+post_photo(test_photo, test_caption, test_hashtags)
 
