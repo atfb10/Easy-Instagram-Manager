@@ -6,7 +6,7 @@ Description: contants.py contains all unchanging variables for the project
 
 # Variables
 CLIMB = 'climb'
-MTN = 'mountain'
+MTN = 'mountains'
 SKI = 'ski'
 HIKE = 'hike'
 CAMP = 'camp'
@@ -20,7 +20,7 @@ WA = 'washington'
 CA = 'california'
 NV = 'nevada'
 OR = 'oregon'
-PHOTO_DIR = 'D:/photos/instabot/alpine_experiences'
+PHOTO_DIR = 'D:/photos/instabot/alpine_experiences$'
 HASHTAG_LEN = 9
 
 # List objects
@@ -80,7 +80,7 @@ spec_sport_climbing_hashtags = [
     'sportclimb',
     'sportclimbing',
     'cragging',
-    ''
+    'send'
 ]
 
 spec_bouldering_hashtags = [

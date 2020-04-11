@@ -34,5 +34,5 @@ Don't use the most popular hashtags, better optimize to specific audiences
 
 When naming photos:
     - words with hyphens between them indicate what the caption will be 
-    - end of caption is indicated by a '!'
+    - bookends of caption are indicated by a '$' and '!' respectively
     - include the name of the types of hashtags desired for the post. SEE constants.py for implementation

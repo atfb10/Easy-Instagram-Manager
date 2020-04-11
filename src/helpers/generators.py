@@ -1,15 +1,21 @@
 '''
 Author(s): Adam Forestier
 Last Updated: April 2, 2020
-Description: contains the functions to handle random number generation and to generate
-photo caption and hashtag lists 
+Description: contains the functions to handle random number generation, randomly generates
+photo caption and hashtag lists, and randomly follow users 
 '''
+
+# To be able to import personal libraries and variables from higher directory
+import os,sys,inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0,parentdir)
 
 # Libraries
 from random import randint
 
 # Import personal libraries and variables
-from helpers.photos import select_photo
+from photos import select_photo
 from variables.constants import *
 
 def select_special_hashtags():
@@ -21,13 +27,32 @@ def select_special_hashtags():
     '''
     return randint(0, 3)
 
-def generate_caption():
+def generate_caption(picture_name):
     '''
-    TODO: I will create captions using functions in the generators file
+    arguments: picture_name is the name of the picture to be captioned and posted
+    returns: caption for post
+    description: generate_caption() takes in a picture, and as long as naming convention is followed as outlined
+    in strategy.txt; will accurately caption it
+    TODO: Generate caption based upon location
     '''
+    tmp = picture_name.split('$')
+    tmp = tmp[1]
+    tmp = tmp.split('!')
+    tmp = tmp[0]
+    caption_list = tmp.split('-')
+    caption = caption_list[0]
+    for word in caption_list:
+        if word != caption_list[0] and word != ',':
+            caption += ' ' + word
+        if word == ',':
+            caption += word
+    return caption
 
 def generate_hashtags():
     '''
     TODO: I will create hashtags using functions in the generators file
     '''
 
+
+hi = generate_caption(PHOTO_DIR + 'The-Stuart-Enchantments-,-Washington!mountainswashington')
+print(hi)
