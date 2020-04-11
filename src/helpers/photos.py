@@ -30,7 +30,16 @@ def select_photo(directory=PHOTO_DIR):
     photo_num = randint(0, (len(photos)) - 1)
     pic = photos[photo_num]
     return pic
-    
+
+def get_photo_directory(photo_filename):
+    '''
+    arguments: photo_filename is the name of the photo selected to posted
+    returns: directory pointing to where photo to be posted lives
+    description: get_photo_directory() gets the correct directory of a photo in order to accurately
+    point to where picture to be posted lives
+    '''
+    return PHOTO_DIR + '/' + photo_filename
+
 def date_photo():
     '''
     TODO: I will grab the date from the picture metadata nd include it in the post if desired by subsciber
@@ -43,5 +52,3 @@ def geotag_photo():
     OPINION: We may want to make this a script that runs outside the app. Fastest way to rename photos.
     Create caption and bookened with !
     '''
-
-print(select_photo())

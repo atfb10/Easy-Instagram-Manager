@@ -13,10 +13,11 @@ from helpers.generators import (
     generate_hashtags,
 )
 from helpers.photos import (
+    get_photo_directory,
     select_photo
 )
 
 photo = select_photo()
 
-post_photo(photo, generate_caption(photo), generate_hashtags(photo))
+post_photo(get_photo_directory(photo), generate_caption(photo), generate_hashtags(photo))
 
