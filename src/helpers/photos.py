@@ -1,8 +1,13 @@
 '''
 Author(s): Adam Forestier
 Last Updated: April 3, 2020
-Description: photo_meta_extraction.py contains the functions to extract metadata from photos
+Description: photos.py contains the functions to perform photo related functions
 '''
+
+def select_photo():
+    '''
+    TODO: I will randomly select a photo from a specified library
+    '''
 
 def date_photo():
     '''

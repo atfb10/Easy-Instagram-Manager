@@ -20,6 +20,8 @@ WA = 'washington'
 CA = 'california'
 NV = 'nevada'
 OR = 'oregon'
+PHOTO_DIR = 'D:/photos/instabot/alpine_experiences'
+HASHTAG_LEN = 9
 
 # List objects
 base_ae_hashtags = [
