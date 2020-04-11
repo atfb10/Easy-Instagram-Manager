@@ -15,10 +15,12 @@ sys.path.insert(0,parentdir)
 # My libraries
 from variables.constants import *
 
-def select_photo():
+def select_photo(directory=PHOTO_DIR):
     '''
     TODO: I will randomly select a photo from a specified library
     '''
+
+    return photo
     
 
 def date_photo():

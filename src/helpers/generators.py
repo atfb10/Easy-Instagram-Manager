@@ -47,7 +47,7 @@ def generate_caption(picture_name):
             caption += word
     return caption
 
-def generate_hashtags():
+def generate_hashtags(picture_name):
     '''
     TODO: I will create hashtags using functions in the generators file
     '''
