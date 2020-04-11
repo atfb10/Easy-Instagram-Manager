@@ -23,16 +23,6 @@ def sign_in():
     insta_bot.login(username=username, password=password)
     return insta_bot
 
-def generate_caption():
-    '''
-    TODO: I will create captions using functions in the generators file
-    '''
-
-def generate_hashtags():
-    '''
-    TODO: I will create hashtags using functions in the generators file
-    '''
-
 def post_photo(photo, caption, hashtags):
     '''
     arguments: photo file, string of comments, list of hashtags
