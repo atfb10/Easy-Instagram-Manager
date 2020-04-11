@@ -33,7 +33,6 @@ def generate_caption(picture_name):
     returns: caption for post
     description: generate_caption() takes in a picture, and as long as naming convention is followed as outlined
     in strategy.txt; will accurately caption it
-    TODO: Generate caption based upon location
     '''
     tmp = picture_name.split('$')
     tmp = tmp[1]
