@@ -14,7 +14,7 @@ from variables.PII import (
     password
 )
 
-def task(terminal_cmd='python', scriptname='schedule.py'):
+def task(terminal_cmd='python', scriptname='D:/coding/Python/projects/insta-manager/src/helpers/schedule_actions.py'):
     '''
     argument: terminal_cmd is argument to run on terminal when subprocess is called
     scriptname is the name of the scheduler script to run

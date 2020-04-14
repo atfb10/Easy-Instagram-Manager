@@ -41,7 +41,3 @@ def generate_hashtags(picture_name):
     '''
     TODO: I will create hashtags using functions in the generators file
     '''
-
-
-hi = generate_caption(PHOTO_DIR + 'The-Stuart-Enchantments-,-Washington!mountainswashington')
-print(hi)
