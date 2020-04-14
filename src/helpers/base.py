@@ -52,3 +52,14 @@ def post_photo(photo, caption, hashtags):
     bot.upload_photo(photo=photo, caption=full_caption)
     print('Photo Successfully Uploaded')
     return
+
+def unfollow_unfollowers():
+    '''
+    arguments: none
+    returns: nothing
+    description: the function unfollow_unfollowers() unfollows every one we follow
+    that does not follow us
+    '''
+    bot = sign_in()
+    bot.unfollow_non_followers()
+    return
