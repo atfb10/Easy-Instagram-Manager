@@ -1,23 +1,14 @@
 '''
 Author(s): Adam Forestier
-Last Updated: April 3, 2020
+Last Updated: April 14, 2020
 Description: bot.py contains the driver code for an Instagram bot
 '''
 
-# Import methods and variables from other files
-from helpers.base import (
-    post_photo
-)
-from helpers.generators import (
-    generate_caption,
-    generate_hashtags,
-)
-from helpers.photos import (
-    get_photo_directory,
-    select_photo
-)
+# Libraries
+import schedule
 
-photo = select_photo()
+# Import scheduler
+from helpers.base import task
 
-post_photo(get_photo_directory(photo), generate_caption(photo), generate_hashtags(photo))
-
+# Call task scheduler
+task()
