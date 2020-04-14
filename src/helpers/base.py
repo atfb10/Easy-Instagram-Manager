@@ -9,12 +9,16 @@ from instabot import Bot
 from subprocess import call
 
 # Import project functions and models
+from variables.constants import (
+    SCRIPT_SCHEDULE_DIR
+)
+
 from variables.PII import (
     username,
     password
 )
 
-def task(terminal_cmd='python', scriptname='D:/coding/Python/projects/insta-manager/src/helpers/schedule_actions.py'):
+def task(terminal_cmd='python', scriptname=SCRIPT_SCHEDULE_DIR):
     '''
     argument: terminal_cmd is argument to run on terminal when subprocess is called
     scriptname is the name of the scheduler script to run

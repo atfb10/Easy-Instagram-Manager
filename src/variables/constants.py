@@ -22,6 +22,7 @@ CA = 'california'
 NV = 'nevada'
 OR = 'oregon'
 PHOTO_DIR = 'D:/photos/instabot/alpine_experiences$'
+SCRIPT_SCHEDULE_DIR = 'D:/coding/Python/projects/insta-manager/src/helpers/schedule_actions.py'
 HASHTAG_LEN = 9
 
 # List objects

@@ -27,14 +27,6 @@ from helpers.photos import (
     select_photo
 )
 
-
-def test(hi='cheese'):
-    print(hi)
-    return
-
-schedule.every(1).minutes.do(test)
-
-
 # Run indefinitely (until we manually shut down)
 while(True):
     schedule.run_pending()
