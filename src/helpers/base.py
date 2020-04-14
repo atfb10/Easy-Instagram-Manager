@@ -36,4 +36,5 @@ def post_photo(photo, caption, hashtags):
             hashtag_str += ' #' + tag
     full_caption = caption + '\n\n' + hashtag_str
     bot.upload_photo(photo=photo, caption=full_caption)
+    print('Photo Successfully Uploaded')
     return
