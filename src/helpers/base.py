@@ -9,17 +9,6 @@ from instabot import Bot
 from subprocess import call
 
 # Import project functions and models
-from helpers.base import (
-    post_photo
-)
-from helpers.generators import (
-    generate_caption,
-    generate_hashtags,
-)
-from helpers.photos import (
-    get_photo_directory,
-    select_photo
-)
 from variables.PII import (
     username,
     password
@@ -28,7 +17,7 @@ from variables.PII import (
 def task(terminal_cmd='python', scriptname='schedule.py'):
     '''
     argument: terminal_cmd is argument to run on terminal when subprocess is called
-    scriptname is the name of the scheduler to run
+    scriptname is the name of the scheduler script to run
     returns: nothing
     description: task() calls the schedule.py script
     '''
