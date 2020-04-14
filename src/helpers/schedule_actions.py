@@ -16,7 +16,8 @@ import time
 
 # Import project functions and models
 from base import (
-    post_photo
+    post_photo,
+    unfollow_unfollowers
 )
 from helpers.generators import (
     generate_caption,
@@ -26,6 +27,8 @@ from helpers.photos import (
     get_photo_directory,
     select_photo
 )
+
+schedule.every().wednesday.at('00:00').do(unfollow_unfollowers)
 
 # Run indefinitely (until we manually shut down)
 while(True):
