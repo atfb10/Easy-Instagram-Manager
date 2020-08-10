@@ -34,3 +34,4 @@ schedule.every().wednesday.at('00:00').do(unfollow_unfollowers)
 while(True):
     schedule.run_pending()
     time.sleep(1)
+ 
