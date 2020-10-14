@@ -7,7 +7,7 @@ Description: bot.py contains the driver code for an Instagram bot
 # Libraries
 import schedule
 
-# Import scheduler
+# Import task scheduler function
 from helpers.base import task
 
 # Call task scheduler
