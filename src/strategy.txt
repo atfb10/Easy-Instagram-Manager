@@ -1,0 +1,38 @@
+Keys to Instagram Algorithm
+    - Interest
+    - Relationship 
+    - Timeliness
+    - Frequency 
+    - Following 
+    - Usage 
+
+Impact of ranking:
+    - Comments
+    - Likes 
+    - Shares
+    - Views
+
+Post consistently
+    - You not only improve your engagement but it’s a signal to the algorithm that you’re a quality account
+    - Post with the same cadence; at all times
+
+Posting to stories MATTERS
+
+Resharing posts helps!
+
+Commenting is huge!
+
+Add Hashtags after you write the caption preceded by “. . . . .” (one dot per line) so that they get truncated.
+    - Makes post seem less spammy
+    - Increases likeability of post 
+    - Another option is to add the hashtags as first comment following post 
+
+Research shows NINE, is the optimum number of hashtags per post
+    - 8 to 11 will be our range random number generation range; with a 50%% probability of generating 9
+
+Don't use the most popular hashtags, better optimize to specific audiences
+
+When naming photos:
+    - words with hyphens between them indicate what the caption will be 
+    - bookends of caption are indicated by a '$' and '!' respectively
+    - include the name of the types of hashtags desired for the post. SEE constants.py for implementation

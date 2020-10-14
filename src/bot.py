@@ -5,10 +5,10 @@ Description: bot.py contains the driver code for an Instagram bot
 '''
 
 # Libraries
-from instabot import bot
+import schedule
 
-# Import methods and variables from other files
-from helpers.PII import(
-    username,
-    password
-)
+# Import task scheduler function
+from helpers.base import task
+
+# Call task scheduler
+task()
